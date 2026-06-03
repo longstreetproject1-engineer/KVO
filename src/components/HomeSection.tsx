@@ -11,8 +11,8 @@ export default function HomeSection({ onNavigate, recentNotice }: HomeSectionPro
   return (
     <div className="space-y-8 animate-fade-in">
       {/* Top credit line */}
-      <div className="flex justify-between items-center -mb-5 px-1">
-        <span className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-widest font-mono">
+      <div className="flex justify-start items-center -mb-6 px-1">
+        <span className="text-[10px] sm:text-xs font-extrabold text-slate-700 uppercase tracking-widest font-mono bg-slate-100/80 px-2 py-1 rounded border border-slate-200">
           Made by AH Rafi Enquiry
         </span>
       </div>
