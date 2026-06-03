@@ -10,6 +10,13 @@ interface HomeSectionProps {
 export default function HomeSection({ onNavigate, recentNotice }: HomeSectionProps) {
   return (
     <div className="space-y-8 animate-fade-in">
+      {/* Top credit line */}
+      <div className="flex justify-between items-center -mb-5 px-1">
+        <span className="text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-widest font-mono">
+          Made by AH Rafi Enquiry
+        </span>
+      </div>
+
       {/* Dynamic Hero Banner */}
       <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#E8F5FB] via-white to-[#FDEAEA] p-8 md:p-12 border border-[#D0E8F4] shadow-sm text-center">
         {/* Subtle Decorative Ambient Circles resembling the Design Reference */}
