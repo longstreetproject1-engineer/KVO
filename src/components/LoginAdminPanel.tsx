@@ -103,16 +103,7 @@ export default function LoginAdminPanel({
             </button>
           </form>
 
-          {/* Fully secret notice hint rendered inside high-security credentials panel */}
-          <div className="rounded-xl bg-orange-50/50 border border-orange-100 p-4 text-[11px] text-orange-850 space-y-1">
-            <p className="font-bold flex items-center gap-1.5 text-orange-700">
-              <Shield className="h-4 w-4 shrink-0" />
-              <span>Security Access Information:</span>
-            </p>
-            <p className="text-slate-600 leading-normal">
-              Admin username is <code className="bg-orange-100 rounded px-1.5 py-0.5 font-mono font-bold text-orange-900">ahsankabir100</code> and password is <code className="bg-orange-100 rounded px-1.5 py-0.5 font-mono font-bold text-orange-900">27102007</code>. Keep these credentials confidential.
-            </p>
-          </div>
+
         </div>
       ) : (
         
