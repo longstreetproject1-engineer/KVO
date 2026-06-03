@@ -35,13 +35,59 @@ export default function Header({
           <div className="flex items-center gap-8 h-full">
             {/* Logo */}
             <div 
-              className="flex cursor-pointer items-center gap-2 font-semibold tracking-tight text-slate-800"
+              className="flex cursor-pointer items-center gap-2.5 font-semibold tracking-tight text-slate-800"
               onClick={() => setCurrentTab('home')}
             >
-              <div className="w-6 h-6 sky-blue-accent rounded-sm flex items-center justify-center">
-                <div className="w-3 h-3 bg-[#4AA8D8] rounded-sm"></div>
+              <div className="relative w-8 h-9 flex items-center justify-center select-none bg-white p-0.5 rounded border border-slate-100/50 shadow-xs">
+                <svg viewBox="0 0 100 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* Letter K */}
+                  <text 
+                    x="3" 
+                    y="105" 
+                    fontFamily="Aptos, Segoe UI, system-ui, sans-serif" 
+                    fontWeight="900" 
+                    fontSize="75" 
+                    fill="#90DCFA" 
+                    stroke="#1187CC" 
+                    strokeWidth="4"
+                  >
+                    K
+                  </text>
+                  {/* Letter O */}
+                  <text 
+                    x="48" 
+                    y="62" 
+                    fontFamily="Aptos, Segoe UI, system-ui, sans-serif" 
+                    fontWeight="900" 
+                    fontSize="66" 
+                    fill="#90DCFA" 
+                    stroke="#1187CC" 
+                    strokeWidth="4"
+                  >
+                    O
+                  </text>
+                  {/* Letter V */}
+                  <text 
+                    x="45" 
+                    y="125" 
+                    fontFamily="Aptos, Segoe UI, system-ui, sans-serif" 
+                    fontWeight="900" 
+                    fontSize="66" 
+                    fill="#90DCFA" 
+                    stroke="#1187CC" 
+                    strokeWidth="4"
+                  >
+                    V
+                  </text>
+                </svg>
               </div>
-              <span className="font-serif font-bold text-slate-800 tracking-tight text-sm sm:text-base">KABIR <span className="text-[#D94444]">VILLA</span></span>
+              <span className="font-serif font-extrabold text-slate-800 tracking-tight text-sm sm:text-base flex items-center gap-1.5">
+                <span className="text-[#4AA8D8]">Kabir</span> 
+                <span className="text-[#D94444]">Villa</span> 
+                <span className="inline-block text-[10px] bg-[#E8F5FB] text-[#1187CC] px-1.5 py-0.5 rounded font-mono font-bold border border-[#B8DFEF]">
+                  Official
+                </span>
+              </span>
             </div>
 
             {/* Desktop Navigation (Microsoft style - left-aligned tabs) */}

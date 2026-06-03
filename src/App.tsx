@@ -897,7 +897,7 @@ export default function App() {
       {/* Humble literal human label footer, avoiding unrequested clutter and tech larping */}
       <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-400 print:hidden">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-semibold text-slate-550">&copy; {new Date().getFullYear()} Kabir Villa. All rights reserved.</p>
+          <p className="font-semibold text-slate-550">&copy; {new Date().getFullYear()} Kabir Villa Official. All rights reserved.</p>
           <div className="flex gap-4 text-[11px] font-medium text-slate-400">
             <span>Sardar Para, Rangpur, Bangladesh</span>
             <span>&bull;</span>
