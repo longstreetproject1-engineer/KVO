@@ -27,6 +27,9 @@ export default function HomeSection({ onNavigate, recentNotice }: HomeSectionPro
           <h1 className="font-serif text-3xl md:text-5xl font-bold tracking-tight text-[#1A2A3A] leading-tight">
             Welcome to <span className="text-[#4AA8D8]">Kabir</span> <span className="text-[#D94444]">Villa</span>
           </h1>
+          <h4 className="font-serif text-lg md:text-xl font-bold text-[#4A6075] tracking-tight -mt-2">
+            Build by AHR Enquires
+          </h4>
           <p className="text-[#4A6075] text-sm md:text-base max-w-2xl mx-auto leading-relaxed font-medium">
             Ahsan Kabir , mobile number : <span className="font-bold text-[#1A2A3A]">01718832646</span>
             <br />
