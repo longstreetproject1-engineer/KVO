@@ -1,0 +1,6 @@
+{
+  "name": "Kabir Villa",
+  "description": "Secure portal for Kabir Villa, featuring prepaid electric billing, house location map, notice board, and the interactive Kabir Villa Family index.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

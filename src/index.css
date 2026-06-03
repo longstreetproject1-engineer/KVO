@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Elegant Theme Color Registry & Accent Classes */
+:root {
+  --sky: #4AA8D8;
+  --sky-light: #E8F5FB;
+  --sky-mid: #B8DFEF;
+  --red: #D94444;
+  --red-light: #FDEAEA;
+  --white: #FFFFFF;
+  --off-white: #F5FAFD;
+  --text-dark: #1A2A3A;
+  --text-mid: #4A6075;
+  --text-light: #7A9AB0;
+  --border: #D0E8F4;
+}
+
+.sky-brand {
+  color: #4AA8D8;
+}
+
+.bg-sky-brand {
+  background-color: #4AA8D8;
+}
+
+.red-brand {
+  color: #D94444;
+}
+
+.bg-red-brand {
+  background-color: #D94444;
+}
+
+.sky-blue-accent {
+  background-color: #E8F5FB;
+}
+
+.sky-blue-text {
+  color: #4AA8D8;
+}
+
+.lite-red-bg {
+  background-color: #FDEAEA;
+}
+
+.lite-red-text {
+  color: #D94444;
+}
+
+.border-sky-mid {
+  border-color: #B8DFEF;
+}
+
+.ms-nav-item {
+  padding: 0 16px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.875rem;
+}
+
+.ms-nav-item:hover {
+  border-bottom-color: #4AA8D8;
+  background: rgba(74, 168, 216, 0.05);
+}
+
+.data-table-row:hover {
+  background-color: #E8F5FB;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom slick inputs */
+input, textarea, select {
+  transition: all 0.15s ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #4AA8D8 !important;
+  box-shadow: 0 0 0 3px rgba(74, 168, 216, 0.12) !important;
+  outline: none !important;
+}
+
