@@ -216,7 +216,7 @@ export default function PrepaidElectricity({
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-[#D0E8F4] bg-slate-50/70 px-6 py-4.5 gap-3">
           <div className="flex items-center gap-2">
             <span className="w-2 h-4 bg-[#4AA8D8] inline-block rounded-full"></span>
-            <span className="text-sm font-bold text-[#1A2A3A] font-serif">Meters Register Index ({filteredMeters.length})</span>
+            <span className="text-sm font-bold text-[#1A2A3A] font-aptos">Meters Register Index ({filteredMeters.length})</span>
           </div>
           <div className="relative w-full sm:w-auto">
             <input
